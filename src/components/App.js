@@ -1,5 +1,3 @@
-
-
 import Statistics from './Statistics/Statistics';
 import React, { Component } from 'react';
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
@@ -43,13 +41,10 @@ class App extends Component {
 			<>
 				<Section title="Please leave feetback">
 					<FeedbackOptions
-						// options={ }
 						onLeaveFeedback={this.handleAmount}
 						onCountTotalFeedback={this.countTotalFeedback}
 					/>
-
 				</Section>
-
 				<Section title="Statistic">
 					{this.state.total > 0 ? <Statistics
 						good={good}
@@ -60,18 +55,6 @@ class App extends Component {
 					/> : <Notification message="There is no feedback"></Notification>}
 
 				</Section>
-
-
-
-
-
-
-
-				{
-					// recipes.map((recipe, idx) => (
-					// 	<Recipe key={idx} recipe={recipe} />
-					// ))
-				}
 			</>
 		);
 	}
