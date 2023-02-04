@@ -1,6 +1,5 @@
 
-import { Recipe } from './Recipe/Recipe';
-import recipes from '../recepies.json';
+
 import Statistics from './Statistics/Statistics';
 import React, { Component } from 'react';
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
