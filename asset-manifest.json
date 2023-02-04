@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sava642/React-module2__tasks/static/css/main.a0e9575e.css",
+    "main.js": "/sava642/React-module2__tasks/static/js/main.77c990ed.js",
+    "index.html": "/sava642/React-module2__tasks/index.html",
+    "main.a0e9575e.css.map": "/sava642/React-module2__tasks/static/css/main.a0e9575e.css.map",
+    "main.77c990ed.js.map": "/sava642/React-module2__tasks/static/js/main.77c990ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0e9575e.css",
+    "static/js/main.77c990ed.js"
+  ]
+}
